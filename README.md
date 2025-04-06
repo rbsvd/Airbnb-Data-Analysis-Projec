@@ -117,11 +117,11 @@ Performance Metrics:
 
 2.Classification Report:
 
-    Sentiment	  Precision	  Recall	 F1-Score	  Support
+    Sentiment	  Precision	  Recall	F1-Score	 Support
 
-    Neutral	       1.00	   1.00	   1.00	      386
+    Neutral	       1.00	      1.00	     1.00	     386
 
-    Positive	  1.00	      1.00	      1.00	      1618
+    Positive	  1.00	      1.00	     1.00	     1618
 
 Sentiment classification provided insights into customer feedback trends, identifying satisfaction drivers and areas for improvement.
 Insights:
