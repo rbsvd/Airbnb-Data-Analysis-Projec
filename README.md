@@ -1,4 +1,4 @@
-# Airbnb-Data-Analysis-Projec
+# Airbnb-Data-Analysis-Project
 
 Objective and Scope
 Objective: The goal of this project is to analyze Airbnb listing data to uncover meaningful insights related to pricing, availability patterns, sentiment trends, and clustering for segmentation. Additionally, the project provides actionable recommendations to optimize Airbnb listings and improve decision-making.
