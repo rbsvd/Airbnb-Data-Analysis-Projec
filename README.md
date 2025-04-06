@@ -95,9 +95,9 @@ Performance Metrics:
 
 2.Classification Report:
 
-    Category	 Precision	Recall	F1-Score	 Support
+    Category   Precision	Recall	   F1-Score	    Support
 
-    Low	         1.00	    1.00	    1.00	     2004
+    Low	         1.00	     1.00	    1.00	     2004
 
 Successfully categorized availability into Low, Medium, and High.
 
@@ -119,9 +119,9 @@ Performance Metrics:
 
     Sentiment	  Precision	  Recall	  F1-Score	  Support
 
-    Neutral	      1.00	     1.00	     1.00	    386
+    Neutral	       1.00	       1.00	        1.00	    386
 
-    Positive	   1.00	     1.00	     1.00	   1618
+    Positive	   1.00	       1.00	        1.00	   1618
 
 Sentiment classification provided insights into customer feedback trends, identifying satisfaction drivers and areas for improvement.
 Insights:
