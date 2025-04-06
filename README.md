@@ -209,7 +209,7 @@ Programming Language: Python 3.12
 
 Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, NLP tools like NLTK or TextBlob.
 
-Tools: Jupyter Notebook or other Python-compatible IDEs.
+Tools: Jupyter Notebook
 
 #### Setup Instructions:
 
