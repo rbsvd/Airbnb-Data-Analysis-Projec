@@ -95,7 +95,7 @@ Performance Metrics:
 
 2.Classification Report:
 
-    Category     Precision	 Recall	   F1-Score	 Support
+    Category     Precision	 Recall	     F1-Score	  Support
 
     Low	        1.00	    1.00	   1.00	     2004
 
