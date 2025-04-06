@@ -91,11 +91,11 @@ Model: Random Forest Classifier Objective: Classify listings into availability c
 
 Performance Metrics:
 
-1.Accuracy: 1.00
+    1.Accuracy: 1.00
 
 2.Classification Report:
 
-    Category   Precision	Recall	   F1-Score	    Support
+    Category     Precision	 Recall	    F1-Score	 Support
 
     Low	         1.00	     1.00	    1.00	     2004
 
@@ -113,15 +113,15 @@ Model: Random Forest Classifier Objective: Classify customer reviews into sentim
 
 Performance Metrics:
 
-1.Sentiment Analysis Accuracy: 1.00
+    1.Sentiment Analysis Accuracy: 1.00
 
 2.Classification Report:
 
     Sentiment	  Precision	  Recall	  F1-Score	  Support
 
-    Neutral	       1.00	       1.00	        1.00	    386
+    Neutral	      1.00	      1.00	      1.00	      386
 
-    Positive	   1.00	       1.00	        1.00	   1618
+    Positive	  1.00	      1.00	      1.00	      1618
 
 Sentiment classification provided insights into customer feedback trends, identifying satisfaction drivers and areas for improvement.
 Insights:
