@@ -1,9 +1,9 @@
 # Airbnb-Data-Analysis-Project
 
-Objective and Scope
-Objective: The goal of this project is to analyze Airbnb listing data to uncover meaningful insights related to pricing, availability patterns, sentiment trends, and clustering for segmentation. Additionally, the project provides actionable recommendations to optimize Airbnb listings and improve decision-making.
+### Objective and Scope
+#### Objective: The goal of this project is to analyze Airbnb listing data to uncover meaningful insights related to pricing, availability patterns, sentiment trends, and clustering for segmentation. Additionally, the project provides actionable recommendations to optimize Airbnb listings and improve decision-making.
 
-Specific Objectives:
+#### Specific Objectives:
 
 Understand the relationship between numeric features and target variables like price and availability.
 
@@ -13,7 +13,7 @@ Utilize clustering for segmentation of listings.
 
 Provide actionable e-commerce strategies and recommendations based on data insights.
 
-Scope:
+#### Scope:
 
 Exploratory Data Analysis (EDA) to understand data distribution, detect anomalies, and explore feature relationships.
 
@@ -25,7 +25,7 @@ Evaluation of model performance using appropriate metrics and optimization techn
 
 Actionable insights generation and visualization.
 
-Methodology
+## Methodology
 Data Preprocessing:
 
 Data Cleaning: Handled missing and infinite values with imputation using column means.
@@ -34,7 +34,7 @@ Feature Engineering: Created derived features like weighted_rating, availability
 
 Scaling: Used StandardScaler to ensure consistent feature distribution across models.
 
-Model Development:
+## Model Development:
 
 Regression Analysis:
 
@@ -85,7 +85,7 @@ Optimal clusters revealed patterns across price, reviews, and availability.
 
 Segmentation enabled targeted marketing and enhanced strategic decisions.
 
-Actionable Recommendations
+#### Actionable Recommendations
 Dynamic Pricing:
 
 Adjust pricing based on demand trends and seasonal availability patterns.
@@ -110,7 +110,7 @@ Create interactive dashboards for hosts to visualize insights dynamically.
 
 Incorporate clustering, pricing predictions, and sentiment trends for easy exploration.
 
-Limitations
+#### Limitations
 Imputation assumptions for missing values might impact prediction accuracy.
 
 Clustering based solely on numeric features excludes categorical insights like property type or location.
@@ -128,16 +128,16 @@ Optimize models further using ensemble methods or hyperparameter tuning.
 
 Develop real-time predictive dashboards for pricing and availability management.
 
-Environment Setup
+### Environment Setup
 Prerequisites:
 
-Programming Language: Python 3.x
+Programming Language: Python 3.12
 
 Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, NLP tools like NLTK or TextBlob.
 
 Tools: Jupyter Notebook or other Python-compatible IDEs.
 
-Setup Instructions:
+#### Setup Instructions:
 
 Install required libraries using pip install.
 
