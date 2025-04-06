@@ -62,24 +62,89 @@ Feature Conversion: Used TF-IDF to transform reviews into numerical features for
 
 Sentiment Prediction: Classified reviews into Positive, Neutral, or Negative sentiments using Random Forest.
 
-Results and Insights
-Regression Analysis:
+### Results and Insights
+#### Price Prediction Model Report
+Model: Random Forest Regressor Objective: Predict the price of listings based on features like reviews_per_month, availability_proportion, and weighted_rating.
+
+Performance Metrics:
+
+1.Mean Squared Error (MSE): 0.00
+
+2.R-squared (R²): 1.00
+
+3.Root Mean Squared Error (RMSE): 0.04
+
+4.Mean Absolute Error (MAE): 0.01
+
+Insights:
+
+Exceptional accuracy in price prediction.
+
+Key features influencing predictions included review frequency, adjusted ratings, and availability metrics.
 
 Achieved high prediction accuracy for price.
 
 Revealed key features like reviews_per_month, availability_proportion, and adjusted_rating.
 
-Classification:
+#### Classification:Availability Prediction Model Report
+Model: Random Forest Classifier Objective: Classify listings into availability categories (Low, Medium, High) based on features like price, reviews_per_month, and weighted_rating.
+
+Performance Metrics:
+
+1.Accuracy: 1.00
+
+2.Classification Report:
+
+Category	Precision	Recall	F1-Score	Support
+Low	        1.00	   1.00	    1.00	   2004
 
 Successfully categorized availability into Low, Medium, and High.
 
 Enhanced understanding of accessibility patterns.
+### Insights:
 
-Sentiment Analysis:
+Perfect classification performance.
+
+Helps identify accessibility trends and informs booking strategies for listings with varying availability levels.
+
+#### Sentiment Analysis:Sentiment Classification Model Report
+Model: Random Forest Classifier Objective: Classify customer reviews into sentiments (Positive, Neutral, Negative) using TF-IDF features derived from review text.
+
+Performance Metrics:
+
+1.Sentiment Analysis Accuracy: 1.00
+
+2.Classification Report:
+
+Sentiment	  Precision	  Recall	  F1-Score	  Support
+Neutral	      1.00	     1.00	     1.00	        386
+Positive	    1.00	     1.00	     1.00	       1618
 
 Sentiment classification provided insights into customer feedback trends, identifying satisfaction drivers and areas for improvement.
+Insights:
 
-Clustering:
+Perfect sentiment prediction, providing valuable insights into customer satisfaction and areas for improvement.
+
+#### Clustering:Clustering Analysis Report
+Model: KMeans Objective: Segment listings into clusters based on features like price, availability_365, reviews_per_month, and number_of_reviews.
+
+Performance Metrics:
+
+k	Silhouette Score
+2	0.8089
+3	0.6149
+4	0.4830
+5	0.4838
+6	0.3089
+Best k: 2 (Silhouette Score: 0.8089)
+
+Insights:
+
+Identified two distinct clusters with strong separation:
+
+Cluster 1: Budget-friendly listings with lower prices and fewer reviews.
+
+Cluster 2: High-value listings with premium prices and strong review scores.
 
 Optimal clusters revealed patterns across price, reviews, and availability.
 
