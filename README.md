@@ -68,13 +68,13 @@ Model: Random Forest Regressor Objective: Predict the price of listings based on
 
 Performance Metrics:
 
-1.Mean Squared Error (MSE): 0.00
+    1.Mean Squared Error  (MSE): 0.00
 
-2.R-squared (R²): 1.00
+    2.R-squared (R²): 1.00
 
-3.Root Mean Squared Error (RMSE): 0.04
+    3.Root Mean Squared Error (RMSE): 0.04
 
-4.Mean Absolute Error (MAE): 0.01
+    4.Mean Absolute Error (MAE): 0.01
 
 Insights:
 
@@ -95,9 +95,9 @@ Performance Metrics:
 
 2.Classification Report:
 
-   Category	Precision	Recall	F1-Score	Support
+    Category	 Precision	Recall	F1-Score	 Support
 
-    Low	        1.00	   1.00	    1.00	   2004
+    Low	         1.00	    1.00	    1.00	     2004
 
 Successfully categorized availability into Low, Medium, and High.
 
@@ -117,11 +117,11 @@ Performance Metrics:
 
 2.Classification Report:
 
-   Sentiment	  Precision	  Recall	  F1-Score	  Support
+    Sentiment	  Precision	  Recall	  F1-Score	  Support
 
-   Neutral	      1.00	     1.00	     1.00	        386
+    Neutral	      1.00	     1.00	     1.00	    386
 
-   Positive	    1.00	     1.00	     1.00	       1618
+    Positive	   1.00	     1.00	     1.00	   1618
 
 Sentiment classification provided insights into customer feedback trends, identifying satisfaction drivers and areas for improvement.
 Insights:
@@ -133,19 +133,19 @@ Model: KMeans Objective: Segment listings into clusters based on features like p
 
 Performance Metrics:
 
-  k	  Silhouette Score
+    k	  Silhouette Score
 
-  2	    0.8089
+    2	    0.8089
 
-  3	    0.6149
+    3	    0.6149
 
-  4	    0.4830
+    4	    0.4830
 
-  5	    0.4838
+    5	    0.4838
 
-  6	    0.3089
+    6	    0.3089
 
-  Best k: 2 (Silhouette Score: 0.8089)
+    Best k: 2 (Silhouette Score: 0.8089)
 
 Insights:
 
