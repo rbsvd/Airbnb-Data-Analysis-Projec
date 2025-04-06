@@ -95,8 +95,9 @@ Performance Metrics:
 
 2.Classification Report:
 
-Category	Precision	Recall	F1-Score	Support
-Low	        1.00	   1.00	    1.00	   2004
+   Category	Precision	Recall	F1-Score	Support
+
+    Low	        1.00	   1.00	    1.00	   2004
 
 Successfully categorized availability into Low, Medium, and High.
 
@@ -116,9 +117,11 @@ Performance Metrics:
 
 2.Classification Report:
 
-Sentiment	  Precision	  Recall	  F1-Score	  Support
-Neutral	      1.00	     1.00	     1.00	        386
-Positive	    1.00	     1.00	     1.00	       1618
+   Sentiment	  Precision	  Recall	  F1-Score	  Support
+
+   Neutral	      1.00	     1.00	     1.00	        386
+
+   Positive	    1.00	     1.00	     1.00	       1618
 
 Sentiment classification provided insights into customer feedback trends, identifying satisfaction drivers and areas for improvement.
 Insights:
@@ -130,13 +133,19 @@ Model: KMeans Objective: Segment listings into clusters based on features like p
 
 Performance Metrics:
 
-k	Silhouette Score
-2	0.8089
-3	0.6149
-4	0.4830
-5	0.4838
-6	0.3089
-Best k: 2 (Silhouette Score: 0.8089)
+  k	  Silhouette Score
+
+  2	    0.8089
+
+  3	    0.6149
+
+  4	    0.4830
+
+  5	    0.4838
+
+  6	    0.3089
+
+  Best k: 2 (Silhouette Score: 0.8089)
 
 Insights:
 
