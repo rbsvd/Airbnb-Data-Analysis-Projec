@@ -97,7 +97,7 @@ Performance Metrics:
 
     Category     Precision	 Recall	    F1-Score	 Support
 
-    Low	         1.00	     1.00	    1.00	     2004
+    Low	        1.00	    1.00	   1.00	     2004
 
 Successfully categorized availability into Low, Medium, and High.
 
