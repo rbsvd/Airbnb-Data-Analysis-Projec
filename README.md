@@ -117,7 +117,7 @@ Performance Metrics:
 
 2.Classification Report:
 
-    Sentiment	 PrecisionRecall	 F1-Score	Support
+    Sentiment	Precision Recall	 F1-Score	Support
 
     Neutral	       1.00	      1.00	     1.00	     386
 
