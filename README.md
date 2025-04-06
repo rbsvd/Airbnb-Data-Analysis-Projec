@@ -119,7 +119,7 @@ Performance Metrics:
 
     Sentiment	Precision  Recall	 F1-Score	Support
 
-    Neutral	        1.00	   1.00	        1.00	   386
+    Neutral	        1.00	   1.00	         1.00	   386
 
     Positive	  1.00	      1.00	     1.00	     1618
 
